@@ -1,0 +1,20 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff
+}
+
+.left img {
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background: #1b263b;
+}
