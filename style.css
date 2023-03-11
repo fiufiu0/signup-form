@@ -1,20 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     color: #fff
 }
 
+.left {
+    background: url(img/code.jpg) center;
+    background-size: cover;
+    flex: 2;
+}
+
+.right {
+    flex: 3;
+}
+
 .left img {
-    width: 50%;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     height: 100vh;
+    width: 100vw;
     background: #1b263b;
 }
