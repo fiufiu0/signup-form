@@ -11,22 +11,6 @@ body {
     color: #fff
 }
 
-.left {
-    background: url(img/code.jpg) center;
-    background-size: cover;
-    flex: 2;
-}
-
-.right {
-    flex: 3;
-}
-
-.left img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
-
 .container {
     display: flex;
     flex-direction: row;
@@ -34,3 +18,46 @@ body {
     width: 100vw;
     background: #1b263b;
 }
+
+.left {
+    background: url(img/code.jpg) center;
+    background-size: cover;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.author {
+    position: absolute;
+    bottom: 1rem;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+
+.right {
+    flex: 3;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2.5rem;
+}
+
+.logo p {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.logo img {
+    width: 7rem;
+    padding: 1rem;
+}
+
