@@ -81,6 +81,7 @@ p + p {
     display: flex;
     flex-flow: row wrap;
     padding-left: 2rem;
+    gap: 10px;
 }
 
 .form-row {
@@ -95,3 +96,23 @@ p + p {
     font-size: 1.2rem;
     padding-bottom: 1rem;
 }
+
+.form-btn button {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #4e9efa;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 40px;
+    cursor: pointer;
+
+}
+
+.form-btn button:hover {
+    background-color: #5e9ee7;
+  }
+  
+.form-btn button:active {
+    background-color: #407FC7;
+  }
