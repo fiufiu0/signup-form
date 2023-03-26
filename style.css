@@ -91,7 +91,7 @@ p + p {
     width: 40%;
 }
 
-.text {
+.text-right {
     width: 100%;
     font-size: 1.2rem;
     padding-bottom: 1rem;
@@ -111,8 +111,32 @@ p + p {
 
 .form-btn button:hover {
     background-color: #5e9ee7;
-  }
+}
   
 .form-btn button:active {
     background-color: #407FC7;
-  }
+}
+
+.form-row label {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    padding-bottom: 0.2rem;
+}
+
+.form-row input {
+    border: 1px solid #666363;
+    border-radius: 2px;
+    padding: 0.2rem;
+    color: #fff;
+    background-color: transparent;
+}
+
+.form-row input:focus {
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.form-row input:invalid {
+    border: 1px solid #ee3030f1;
+    color: #D55C5F;
+}
